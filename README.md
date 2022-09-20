@@ -6,6 +6,8 @@ offers you three main files :
 2) balance (PRIMARY ACCOUNT NUMBER  |BALANCE)
 3) transaction data (CARD HOLDER NUMBER|PRIMARY ACCOUNT NUMBER  |EXPIRATION DATE  |maximum ammount  |transaction ammount  |transaction date  |transaction state |sequence number)
 
+PS. you can can append on the existing files or you can delete them and the the program will automatically recreate them without all the previous data and ready to use...
+
 you can link to it any payment transaction made and it withdraw the payment from the balance of the account given if it was registered in th data...
 after completing the transaction , a sequence number will be given in case you want any details from that transaction later as it will be saved with that sequence number in the transaction data file 
 
@@ -16,7 +18,7 @@ you will have four modes for the application:
 3) block card
 4) add an account
 
---payment withdrawl mode will ask you about :
+-payment withdrawl mode will ask you about :
 
 card holder name-------primary account number-------card expiry datetransaction date-------payment transaction amount-----
 
