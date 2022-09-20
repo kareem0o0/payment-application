@@ -50,3 +50,5 @@ other modes :
                                         2- write the card expiry date,PAN number and balance
                                         
               
+
+![payment-flowchart](https://user-images.githubusercontent.com/111197951/191336951-5a52e5f2-6aec-4e48-b9c6-b949a24dc883.jpg)
