@@ -47,5 +47,4 @@ other modes :
                                         1- write 'add account' when asked for the card holder name
                                         2- write the card expiry date,PAN number and balance
                                         
-                 ![payment-flowchart](https://user-images.githubusercontent.com/111197951/191336061-9d555953-027c-4ef1-9715-6b64cef68e88.jpg)
-                   
+              
