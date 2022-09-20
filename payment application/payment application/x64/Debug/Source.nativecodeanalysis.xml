@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\university\EGFWD - EMBEDDED SYSTEMS PROFESSIONAL TRACK\C projects\payment application\payment application\</FILEPATH>
+      <FILENAME>card.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION>
+    <FUNCTION>getCardHolderName</FUNCTION>
+    <DECORATED>getCardHolderName</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\university\EGFWD - EMBEDDED SYSTEMS PROFESSIONAL TRACK\C projects\payment application\payment application\</FILEPATH>
+      <FILENAME>card.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>Size mismatch: 'unsigned int [25]' passed as _Param_(2) when '32 bit operand' is required in call to 'scanf'. This indicates a potential severe error. Buffer underrun or overrun can occur when when this is reported for scanf-like functions.</DESCRIPTION>
+    <FUNCTION>getCardHolderName</FUNCTION>
+    <DECORATED>getCardHolderName</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

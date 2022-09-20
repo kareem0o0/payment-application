@@ -1,0 +1,103 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/university/EGFWD - EMBEDDED SYSTEMS PROFESSIONAL TRACK/C projects/payment application/payment application/card.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "getCardHolderName",
+                  "decoratedName": "getCardHolderName",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "Size mismatch: 'unsigned int [25]' passed as _Param_(2) when '32 bit operand' is required in call to 'scanf'. This indicates a potential severe error. Buffer underrun or overrun can occur when when this is reported for scanf-like functions."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/university/EGFWD - EMBEDDED SYSTEMS PROFESSIONAL TRACK/C projects/payment application/payment application/card.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "getCardHolderName",
+                  "decoratedName": "getCardHolderName",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/university/EGFWD - EMBEDDED SYSTEMS PROFESSIONAL TRACK/C projects/payment application/payment application/card.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1ee8df7fb6af4438fc3a5d389e5d592381b7ba915b1eaaa50516830091ed4828"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/university/egfwd - embedded systems professional track/c projects/payment application/payment application/source.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "f99f3f3c53cfcbf88d05b8b305b0f38563ba74c3e6244d7b0c98a035bdcff66d"
+          }
+        }
+      ]
+    }
+  ]
+}

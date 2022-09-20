@@ -1,0 +1,1 @@
+CARD HOLDER NUMBER      |PRIMARY ACCOUNT NUMBER  |EXPIRATION DATE  |maximum ammount  |transaction ammount  |transaction date  |transaction state             |sequence number  

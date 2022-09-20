@@ -1,0 +1,4 @@
+1) You should deliver a maximum 2min video to discuss your implementation and run different test cases on this function -> getCardHolderName function
+2)You should deliver a maximum 2min video to discuss your implementation and run different test cases on this function -> getCardExpiryDate
+3)
+
